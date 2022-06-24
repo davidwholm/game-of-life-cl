@@ -1,0 +1,19 @@
+* Game-Of-Life 
+
+** Dependencies
+
+- [[https://github.com/raysan5/raylib][raylib]]  
+- [[https://github.com/longlene/cl-raylib][cl-raylib]]
+
+** Usage
+
+#+begin_src shell
+  $ sbcl
+  ,* (ql:quickload :game-of-life)
+  ,* (in-package :game-of-life)
+  ,* (main)
+#+end_src
+
+** Installation
+
+Just clone this repo into your quicklisp =local-projects= folder.
